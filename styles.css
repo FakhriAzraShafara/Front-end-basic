@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+main {
+  padding: 40px;
+}
+nav {
+  height: 50px;
+  background-color: rgba(103, 233, 190, 0.644);
+  color: white;
+  box-shadow: 2px 6px 7px rgba(0, 0, 0, 0.198);
+  position: relative;
+}
+nav span {
+  font-size: 27px;
+  font-weight: 100;
+  position: absolute;
+  left: 40px;
+  top: 7px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.637);
+}
+nav .menu {
+  position: absolute;
+  right: 40px;
+  top: 15px;
+  text-transform: uppercase;
+}
+nav .menu a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 20px;
+  color: white;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.637);
+}
+.menu a:hover {
+  color: greenyellow;
+}
+.hero {
+  height: 500px;
+  position: relative;
+}
+.hero form {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: rgba(121, 197, 172, 0.534);
+  padding: 20px;
+  border-radius: 25px;
+}
+.hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.form_group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.form_group label {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.657);
+  font-size: 19px;
+}
+.form_group div {
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: 2px 6px 7px rgba(0, 0, 0, 0.377);
+}
+.form_group input {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
+.form_group ::placeholder {
+  color: lightskyblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+.form_group textarea {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.form_group button {
+  background-color: rgba(95, 158, 160, 0.829);
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  text-shadow: 1px 3px 6px black;
+}
+section {
+  margin: 60px 0;
+}
+.about {
+  background-color: rgba(89, 255, 47, 0.575);
+  padding: 20px;
+  border-radius: 20px;
+}
+.quotes_card {
+  height: 500px;
+  position: relative;
+  margin: 30px 0;
+}
+.quotes_card p {
+  position: absolute;
+  font-size: 20px;
+}
+.q1 p {
+  padding: 40px;
+  margin-right: 200px;
+  left: 20px;
+  top: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  background-color: rgba(245, 245, 245, 0.452);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.404);
+  max-width: 400px;
+  font-size: 14px;
+}
+.q2 p {
+  padding: 10px 20px;
+  margin-right: 20px;
+  left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  background-color: rgba(33, 129, 46, 0.746);
+  border-radius: 20px;
+  box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.514);
+  color: rgb(255, 255, 255);
+  max-width: 450px;
+  font-size: 16px;
+  bottom: 20px;
+}
+.q3 p {
+  padding: 20px;
+  margin-right: 20px;
+  right: 30px;
+  bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  background-color: rgba(34, 70, 13, 0.513);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.404);
+  max-width: 400px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+.quotes_card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  background-color: rgba(160, 255, 223, 0.486);
+  padding: 20px;
+  position: relative;
+  margin: 180px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.609);
+}
+.overlay a {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 40px;
+}
+.overlay a:hover {
+  background-color: whitesmoke;
+  color: gray;
+}
+footer {
+  background-color: rgba(103, 233, 190, 0.644);
+  padding: 10px;
+  text-align: center;
+}
+#web {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
