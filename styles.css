@@ -187,10 +187,20 @@ section {
 }
 footer {
   background-color: rgba(103, 233, 190, 0.644);
-  padding: 10px;
+  padding: 5px;
   text-align: center;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: dimgray;
 }
 #web {
   text-transform: uppercase;
   text-decoration: underline;
+}
+footer a {
+  text-decoration: none;
+  color: blue;
+}
+footer a:hover {
+  color: aliceblue;
 }
